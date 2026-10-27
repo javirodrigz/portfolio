@@ -147,15 +147,14 @@ footer { display: flex; justify-content: space-between; padding: 1.1rem 4vw; bac
   .hero { min-height: auto; }
   .hero-grid, .case-header, .case-body, .process-grid, .experience-grid { grid-template-columns: 1fr; gap: 2.5rem; }
   .hero-intro { font-size: 1rem; }
-  h1 { max-width: 100%; font-size: clamp(2.35rem, 12vw, 3.35rem); overflow-wrap: anywhere; }
-  h1 br { display: none; }
+  h1 { max-width: 100%; font-size: clamp(2.35rem, 12vw, 3.35rem); overflow-wrap: normal; word-break: normal; }
   .section-heading h2 .headline-line:first-child { white-space: normal; }
   .value-grid { grid-template-columns: 1fr; }
   .value-grid article { min-height: 20rem; }
   .cases-intro { margin-bottom: 5rem; }
   .case { margin: 0 0 2rem; padding: 1.25rem; }
   .case-header > p { margin: 0; font-size: 1.05rem; }
-  .case-header h3 { font-size: clamp(2.75rem, 15vw, 4.5rem); overflow-wrap: anywhere; }
+  .case-header h3 { font-size: clamp(2.65rem, 11vw, 3.35rem); overflow-wrap: normal; word-break: normal; }
   .case-media { border-right: 0; }
   .media-grid { grid-template-columns: 1fr; }
   .case-story { padding: 1.3rem; }
@@ -166,7 +165,7 @@ footer { display: flex; justify-content: space-between; padding: 1.1rem 4vw; bac
   .experience ol li { grid-template-columns: 1fr; gap: 0.5rem; }
   .header-link { font-size: 0.75rem; }
   .header-actions { min-width: 0; gap: 0.65rem; }
-  .media-cta, .button { max-width: 100%; overflow-wrap: anywhere; }
+  .media-cta, .button { max-width: 100%; overflow-wrap: break-word; }
   footer { flex-direction: column; gap: 0.5rem; overflow-wrap: anywhere; }
 }
 
