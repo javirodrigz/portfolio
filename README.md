@@ -13,7 +13,8 @@ Abre `index.html` en un navegador o inicia un servidor estático desde este dire
 - `index.html`: narrativa, casos de estudio, proceso, experiencia y contacto.
 - `index-en.html`: versión completa en inglés para oportunidades internacionales.
 - `styles.css`: estilo responsivo y variables de color al inicio del archivo.
-- `script.js`: navegación suave, revelado de tarjetas y ensamblaje del rompecabezas isométrico del Hero al primer desplazamiento hacia abajo (una vez por carga). Respeta la preferencia de movimiento reducido. Los casos utilizan elementos nativos desplegables.
+- `script.js`: navegación, menú móvil, navegación suave y revelado de tarjetas. Los casos utilizan elementos nativos desplegables.
+- `hero-puzzle.js`: rompecabezas isométrico con relleno blanco al 80% y contornos del dorado del sitio. Se ensambla al primer desplazamiento hacia abajo, una vez por carga, con un recorrido ease-in por pieza. La última tarda más, crece un 8%, se ilumina en dorado y recupera su estado normal. Respeta la preferencia de movimiento reducido.
 - `assets/vendor/gsap-3.12.5.min.js`: GSAP incluido localmente con su aviso de licencia para la animación del Hero; si no está disponible, se muestra la figura ensamblada.
 - `assets/`: capturas organizadas por proyecto; cada caso utiliza tres imágenes y carga los videos de Vimeo bajo demanda.
 

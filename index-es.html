@@ -12,6 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,500;0,600;0,700;1,600&amp;family=Bodoni+Moda:opsz,ital,wght@6..96,500;6..96,600;6..96,500i&amp;family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&amp;display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="styles.css" />
     <script src="assets/vendor/gsap-3.12.5.min.js" defer></script>
+    <script src="hero-puzzle.js" defer></script>
     <script src="script.js" defer></script>
   </head>
   <body>
@@ -42,14 +43,8 @@
             </div>
           </div>
           <div class="hero-art" aria-hidden="true">
-            <div class="puzzle-shadow"></div>
             <div class="puzzle-anchor">
-              <div class="puzzle-isometric" data-hero-puzzle>
-                <div class="puzzle-piece puzzle-piece--sage"><div class="puzzle-face"></div></div>
-                <div class="puzzle-piece puzzle-piece--paper"><div class="puzzle-face"></div></div>
-                <div class="puzzle-piece puzzle-piece--sky"><div class="puzzle-face"></div></div>
-                <div class="puzzle-piece puzzle-piece--gold"><div class="puzzle-face"></div></div>
-              </div>
+              <canvas class="hero-puzzle-canvas" data-hero-puzzle width="680" height="440"></canvas>
             </div>
           </div>
         </div>
